@@ -4,10 +4,10 @@
 <p align="center"><strong>Research code for the GEO case study in our IEEE Access survey</strong></p>
 
 <p align="center">
-<a href="https://doi.org/10.1109/ACCESS.2026.3717452"><img src="https://img.shields.io/badge/IEEE_Access-2026-438461?style=flat-square" alt="IEEE Access 2026"></a>
-<img src="https://img.shields.io/badge/Python-3.10%2B-72986B?style=flat-square" alt="Python 3.10+">
-<img src="https://img.shields.io/badge/PyTorch-Graph_learning-83AC79?style=flat-square" alt="PyTorch graph learning">
-<a href="LICENSE"><img src="https://img.shields.io/badge/Code-MIT-438461?style=flat-square" alt="MIT License"></a>
+<a href="https://doi.org/10.1109/ACCESS.2026.3717452"><img src="https://img.shields.io/badge/IEEE_Access-2026-45434F?style=flat-square" alt="IEEE Access 2026"></a>
+<img src="https://img.shields.io/badge/Python-3.10%2B-686370?style=flat-square" alt="Python 3.10+">
+<img src="https://img.shields.io/badge/PyTorch-Graph_learning-A87D8F?style=flat-square" alt="PyTorch graph learning">
+<a href="LICENSE"><img src="https://img.shields.io/badge/Code-MIT-45434F?style=flat-square" alt="MIT License"></a>
 </p>
 
 <p align="center">
