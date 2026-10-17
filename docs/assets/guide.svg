@@ -1,6 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img">
   <title>GEO / Research notes</title>
   <rect x="0" y="0" width="1200" height="170" fill="#19191F" />
+  <g id="pixel-dust" shape-rendering="crispEdges" aria-hidden="true">
+    <rect x="861" y="29" width="4" height="4" fill="#E7A8BB" opacity=".28" />
+    <rect x="875" y="36" width="3" height="3" fill="#B8B5C1" opacity=".17" />
+    <rect x="949" y="128" width="5" height="5" fill="#B8B5C1" opacity=".17" />
+    <rect x="963" y="120" width="3" height="3" fill="#B8B5C1" opacity=".17" />
+    <rect x="1011" y="54" width="6" height="6" fill="#E7A8BB" opacity=".28" />
+    <rect x="1026" y="46" width="3" height="3" fill="#B8B5C1" opacity=".17" />
+    <rect x="1081" y="108" width="5" height="5" fill="#B8B5C1" opacity=".17" />
+    <rect x="1095" y="119" width="3" height="3" fill="#B8B5C1" opacity=".17" />
+    <rect x="1150" y="29" width="6" height="6" fill="#E7A8BB" opacity=".28" />
+    <rect x="1163" y="42" width="3" height="3" fill="#B8B5C1" opacity=".17" />
+    <rect x="1171" y="138" width="4" height="4" fill="#B8B5C1" opacity=".17" />
+  </g>
   <path d="M38 17H154V29H166V139H154V151H38V139H26V29H38Z" fill="#F2ECE3" stroke="#F2ECE3" stroke-width="2" />
   <g transform="translate(35 25) scale(3.1)" shape-rendering="crispEdges">
     <rect x="7" y="35" width="28" height="1" fill="#D4C9C5" />

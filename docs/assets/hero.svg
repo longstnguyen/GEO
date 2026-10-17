@@ -1,6 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="570" viewBox="0 0 1200 570" role="img">
   <title>GEO — Energy, geometry, and graphs</title>
   <rect x="0" y="0" width="1200" height="570" fill="#19191F" />
+  <g id="pixel-dust" shape-rendering="crispEdges" aria-hidden="true">
+    <rect x="64" y="96" width="5" height="5" fill="#E7A8BB" opacity=".28" />
+    <rect x="77" y="104" width="3" height="3" fill="#B8B5C1" opacity=".17" />
+    <rect x="158" y="153" width="6" height="6" fill="#B8B5C1" opacity=".17" />
+    <rect x="171" y="145" width="3" height="3" fill="#B8B5C1" opacity=".17" />
+    <rect x="281" y="93" width="4" height="4" fill="#E7A8BB" opacity=".28" />
+    <rect x="328" y="148" width="5" height="5" fill="#B8B5C1" opacity=".17" />
+    <rect x="351" y="141" width="3" height="3" fill="#B8B5C1" opacity=".17" />
+    <rect x="880" y="104" width="5" height="5" fill="#B8B5C1" opacity=".17" />
+    <rect x="893" y="112" width="3" height="3" fill="#E7A8BB" opacity=".28" />
+    <rect x="1037" y="145" width="6" height="6" fill="#B8B5C1" opacity=".17" />
+    <rect x="1050" y="137" width="3" height="3" fill="#B8B5C1" opacity=".17" />
+    <rect x="1130" y="88" width="4" height="4" fill="#B8B5C1" opacity=".17" />
+    <rect x="1140" y="99" width="3" height="3" fill="#E7A8BB" opacity=".28" />
+    <rect x="52" y="266" width="4" height="4" fill="#B8B5C1" opacity=".17" />
+    <rect x="64" y="279" width="3" height="3" fill="#B8B5C1" opacity=".17" />
+    <rect x="1126" y="253" width="5" height="5" fill="#B8B5C1" opacity=".17" />
+    <rect x="1139" y="265" width="3" height="3" fill="#E7A8BB" opacity=".28" />
+    <rect x="108" y="410" width="6" height="6" fill="#B8B5C1" opacity=".17" />
+    <rect x="122" y="419" width="3" height="3" fill="#B8B5C1" opacity=".17" />
+    <rect x="221" y="465" width="4" height="4" fill="#B8B5C1" opacity=".17" />
+    <rect x="288" y="424" width="3" height="3" fill="#E7A8BB" opacity=".28" />
+    <rect x="913" y="443" width="4" height="4" fill="#B8B5C1" opacity=".17" />
+    <rect x="1014" y="419" width="6" height="6" fill="#B8B5C1" opacity=".17" />
+    <rect x="1027" y="430" width="3" height="3" fill="#B8B5C1" opacity=".17" />
+    <rect x="1134" y="462" width="4" height="4" fill="#E7A8BB" opacity=".28" />
+  </g>
   <desc>A chubby black pixel cat with pink cheeks sits between energy and geometry motifs on a charcoal research cover.</desc>
   <text x="44" y="44" font-family="Verdana,Arial,sans-serif" font-size="17" font-weight="600" text-anchor="start" fill="#B8B5C1">GEO / RESEARCH COMPANION</text>
   <text x="1156" y="44" font-family="Verdana,Arial,sans-serif" font-size="17" font-weight="600" text-anchor="end" fill="#B8B5C1">IEEE ACCESS · 2026</text>
@@ -125,7 +152,13 @@
   <path d="M874 216H1070V228H1082V324H1070V336H874V324H862V228H874Z" fill="#25252D" stroke="#45434F" stroke-width="2" />
   <path d="M226 232H244V244H238V256H250V262H244V268H238V274H232V280H226V286H220V268H208V262H214V250H220V238H226Z" fill="#E7A8BB" shape-rendering="crispEdges" />
   <text x="228" y="315" font-family="Verdana,Arial,sans-serif" font-size="19" font-weight="600" text-anchor="middle" fill="#F4F0E9">ENERGY</text>
-  <path d="M958 232H986V239H993V279H986V286H958V279H951V239H958ZM965 232V286M979 232V286M951 249H993M951 268H993" fill="none" stroke="#E7A8BB" stroke-width="3" shape-rendering="crispEdges" />
+  <g id="geometry-cube" shape-rendering="crispEdges">
+    <title>Isometric cube</title>
+    <polygon points="944,246 948,246 948,248 952,248 952,250 956,250 956,252 960,252 960,254 964,254 964,256 968,256 968,258 972,258 972,260 972,288 968,288 968,286 964,286 964,284 960,284 960,282 956,282 956,280 952,280 952,278 948,278 948,276 944,276 944,274" fill="#C28FA5" stroke="#E7A8BB" stroke-width="1" />
+    <polygon points="972,260 976,260 976,258 980,258 980,256 984,256 984,254 988,254 988,252 992,252 992,250 996,250 996,248 1000,248 1000,246 1000,274 996,274 996,276 992,276 992,278 988,278 988,280 984,280 984,282 980,282 980,284 976,284 976,286 972,286 972,288" fill="#916C85" stroke="#E7A8BB" stroke-width="1" />
+    <polygon points="972,232 976,232 976,234 980,234 980,236 984,236 984,238 988,238 988,240 992,240 992,242 996,242 996,244 1000,244 1000,246 996,246 996,248 992,248 992,250 988,250 988,252 984,252 984,254 980,254 980,256 976,256 976,258 972,258 972,260 968,260 968,258 964,258 964,256 960,256 960,254 956,254 956,252 952,252 952,250 948,250 948,248 944,248 944,246 948,246 948,244 952,244 952,242 956,242 956,240 960,240 960,238 964,238 964,236 968,236 968,234 972,234 972,232" fill="#F0C8D6" stroke="#E7A8BB" stroke-width="1" />
+    <rect x="969" y="261" width="3" height="26" fill="#F5DCE5" />
+  </g>
   <text x="972" y="315" font-family="Verdana,Arial,sans-serif" font-size="19" font-weight="600" text-anchor="middle" fill="#F4F0E9">GEOMETRY</text>
   <path d="M342 395V370H378V395H342" fill="none" stroke="#B8B5C1" stroke-width="2" />
   <rect x="337" y="390" width="10" height="10" fill="#E7A8BB" />
