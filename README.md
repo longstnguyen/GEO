@@ -26,7 +26,7 @@ Ho Chi Minh City University of Technology (HCMUT) · Vietnam National University
 
 ## Overview
 
-**GEO** connects three ideas for detecting unfamiliar nodes in graphs: **energy-based scoring**, **one-class geometry**, and **graph representation learning**. It is the illustrative experimental case study in *Conceptual Relationship Between Classical Machine Learning and Graph Neural Networks in Out-of-Distribution Detection: A Comprehensive Survey*.
+**GEO** [1] connects three ideas for detecting unfamiliar nodes in graphs: **energy-based scoring**, **one-class geometry**, and **graph representation learning**. It is the illustrative experimental case study in *Conceptual Relationship Between Classical Machine Learning and Graph Neural Networks in Out-of-Distribution Detection: A Comprehensive Survey*.
 
 The survey organizes connections between classical OOD principles and graph learning. This repository provides the GEO experiments: graph encoders, confidence and energy baselines, controlled OOD protocols, component ablations, and evaluation outputs.
 
@@ -190,13 +190,13 @@ Mao Nguyen, Thien Pham, Long S. T. Nguyen, Dang Le, Trung M. Pham, Hieu M. Pham,
 }
 ```
 
-## Related work and implementation lineage
+## References
 
 The case study builds on energy-based graph OOD detection and one-class learning. The supplied experiment code follows the [GNNSafe implementation](https://github.com/qitianwu/GraphOOD-GNNSafe) [2] in its baseline interfaces, protocols, and score propagation. Please also cite the relevant method when using these components:
 
-[1]. Mao Nguyen, Triet Le, Thien Pham, and Tho Quan. **GEO: An Approach for Out-of-Distribution Detection in Graph Neural Networks Using Energy Scoring and One-Class Learning.** *The 13th Conference on Information Technology and Its Applications*, pages 259–270, Springer, 2024. [DOI](https://doi.org/10.1007/978-3-031-74127-2_22).
+[1]. Mao Nguyen, Triet Le, Thien Pham, and Tho Quan, “[GEO: An Approach for Out-of-Distribution Detection in Graph Neural Networks Using Energy Scoring and One-Class Learning](https://doi.org/10.1007/978-3-031-74127-2_22)”, in _The 13th Conference on Information Technology and Its Applications_, Springer, pages 259–270, 2024.
 
-[2]. Qitian Wu, Yiting Chen, Chenxiao Yang, and Junchi Yan. **Energy-based Out-of-Distribution Detection for Graph Neural Networks.** *International Conference on Learning Representations*, 2023. [Paper](https://arxiv.org/abs/2302.02914) · [Code](https://github.com/qitianwu/GraphOOD-GNNSafe).
+[2]. Qitian Wu, Yiting Chen, Chenxiao Yang, and Junchi Yan, “[Energy-based Out-of-Distribution Detection for Graph Neural Networks](https://arxiv.org/abs/2302.02914)”, in _International Conference on Learning Representations_, 2023.
 
 ## License
 
