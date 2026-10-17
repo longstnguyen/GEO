@@ -58,19 +58,19 @@ At inference, the energy-shaped logits provide the detection score. The CLI reta
 
 ## Results
 
-The survey reports **AUROC (%)** across ten settings. The compact view below compares MSP, the GCN graph-energy configuration with propagation and energy regularization, and the strongest GEO configuration **in each setting**. The final row selects across configurations; its complete variants are listed in the [results tables](results/README.md). **Bold** marks the highest value in each column.
+The survey reports **AUROC (%)** across ten settings. The compact view below compares MSP, the GCN graph-energy configuration with propagation and energy regularization, and the strongest GEO configuration **with one-class learning enabled in each setting**. The final row selects across configurations; its complete variants are listed in the [results tables](results/README.md). **Bold** marks the highest value in each column.
 
 | Configuration | Cora S | Cora F | Cora L | Photo S | Photo F | Photo L |
 | :-- | --: | --: | --: | --: | --: | --: |
 | MSP | 71.54 | 85.20 | 91.15 | 78.67 | 97.45 | 42.38 |
 | GCN graph energy | **90.31** | 95.34 | 91.35 | 99.82 | **99.63** | 93.65 |
-| Best GEO per setting | 90.25 | **95.51** | **94.44** | **99.99** | 98.84 | **98.05** |
+| Best GEO per setting | 90.24 | **95.51** | **94.44** | **99.99** | 98.84 | **98.05** |
 
 | Configuration | CS S | CS F | CS L | arXiv temporal |
 | :-- | --: | --: | --: | --: |
 | MSP | 94.63 | 96.59 | 93.96 | 63.91 |
 | GCN graph energy | **99.99** | **99.97** | **97.83** | 74.77 |
-| Best GEO per setting | 99.94 | 99.92 | 97.12 | **86.36** |
+| Best GEO per setting | 99.94 | 99.92 | 97.10 | **86.36** |
 
 **S** = structure manipulation, **F** = feature interpolation, **L** = label leave-out. Photo and CS denote Amazon-Photo and Coauthor-CS. These values are the survey's reported results; machine-readable values are in [`paper-auroc.csv`](results/paper-auroc.csv).
 
@@ -84,7 +84,7 @@ The case study illustrates how classical scoring and geometric constraints compl
 
 ## Quickstart
 
-Use Python 3.10+ and install a matching PyTorch / PyG extension stack. The following Linux CUDA 12.8 environment is used for the remote checks:
+Use Python 3.10+ and install a matching PyTorch / PyG extension stack. Install the following PyTorch / PyG stack on Linux with CUDA 12.8:
 
 ```bash
 git clone https://github.com/longstnguyen/GEO.git
@@ -116,7 +116,7 @@ Cora downloads on first use. The command saves the full console log, configurati
 
 ## Experiments
 
-The experiment API keeps the source argument names. `--method gnnsafe` selects the shared energy-model implementation; adding `--use_occ` enables GEO's one-class term.
+`--method gnnsafe` selects the shared energy-model implementation; adding `--use_occ` enables GEO's one-class term.
 
 | Experiment | Command or script |
 | :-- | :-- |
