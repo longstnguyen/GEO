@@ -194,9 +194,9 @@ Mao Nguyen, Thien Pham, Long S. T. Nguyen, Dang Le, Trung M. Pham, Hieu M. Pham,
 
 The case study builds on energy-based graph OOD detection and one-class learning. The supplied experiment code follows the [GNNSafe implementation](https://github.com/qitianwu/GraphOOD-GNNSafe) [2] in its baseline interfaces, protocols, and score propagation. Please also cite the relevant method when using these components:
 
-[1]. Mao Nguyen, Triet Le, Thien Pham, and Tho Quan, “[GEO: An Approach for Out-of-Distribution Detection in Graph Neural Networks Using Energy Scoring and One-Class Learning](https://doi.org/10.1007/978-3-031-74127-2_22)”, in _The 13th Conference on Information Technology and Its Applications_, Springer, pages 259–270, 2024.
+[1] Mao Nguyen, Triet Le, Thien Pham, and Tho Quan, “[GEO: An Approach for Out-of-Distribution Detection in Graph Neural Networks Using Energy Scoring and One-Class Learning](https://doi.org/10.1007/978-3-031-74127-2_22)”, in _The 13th Conference on Information Technology and Its Applications_, Springer, pages 259–270, 2024.
 
-[2]. Qitian Wu, Yiting Chen, Chenxiao Yang, and Junchi Yan, “[Energy-based Out-of-Distribution Detection for Graph Neural Networks](https://arxiv.org/abs/2302.02914)”, in _International Conference on Learning Representations_, 2023.
+[2] Qitian Wu, Yiting Chen, Chenxiao Yang, and Junchi Yan, “[Energy-based Out-of-Distribution Detection for Graph Neural Networks](https://arxiv.org/abs/2302.02914)”, in _International Conference on Learning Representations_, 2023.
 
 ## License
 
